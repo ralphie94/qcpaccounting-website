@@ -1,0 +1,60 @@
+.service-cards {
+    background: rgba(224, 224, 224, 0.5); 
+}
+
+.service-cards > h1 {
+    font-family: "Raleway";
+    font-size: 36px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.card-one {
+    width: 240px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card-one > p {
+    font-family: "Raleway";
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.fa-file-invoice-dollar {
+    color: #000000;
+    width: 50px;
+    height: 65px;
+}
+
+.card-two {
+    width: 240px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card-three {
+    width: 240px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card-four {
+    width: 240px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
