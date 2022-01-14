@@ -13,7 +13,8 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        
+                        <img className="qcpa-book-logo" src="images/qcpa-logo.png" alt="" />
+                        <img className="qcpa-logo" src="images/qcpa.png" alt="" />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />                   
