@@ -13,8 +13,8 @@ function Footer() {
                 <img className="footer-title" src="images/qcpa.png" alt="" />
                 <p>Follow Us On</p>
                 <div className="social-icons">
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-yelp"></i>
+                    <a href="https://www.instagram.com/qcpaccounting/?hl=en" target="_blank"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.yelp.com/biz/qcp-accounting-hawthorne" target="_blank"><i className="fab fa-yelp"></i></a>
                 </div>
             </div>
         </div>
