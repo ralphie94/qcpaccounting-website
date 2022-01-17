@@ -112,9 +112,40 @@
     margin-top: 1rem;
 }
 
-/* @media screen and (min-width: 700px) {
-    .cards__container {
+@media(max-width: 600px) {
+    .service-cards {
+        height: 73rem;
+    }
+
+    .cards-container {
       display: flex;
       flex-direction: column;
     }
-  } */
+
+    .card-one {
+        margin: 15px;
+    }
+
+    .card-three {
+        margin: 15px;
+    }
+  }
+
+@media(max-width: 400px) {
+    .service-cards {
+        height: 73rem;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-one {
+        margin: 15px;
+    }
+
+    .card-three {
+        margin: 15px;
+    }
+  }
