@@ -1,0 +1,52 @@
+.tax-container {
+    background: rgba(224, 224, 224, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 866px;
+    margin-top: 2rem;
+}
+
+.tax > h1 {
+    font-family: "Raleway";
+    font-size: 36px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tax-container > p {
+    font-family: "Raleway";
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 1400px;
+    margin-bottom: 6rem;
+}
+
+.contact-btn {
+    width: 270px;
+    height: 100px;
+    background: #000;
+    border-radius: 10px;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+@media screen and (max-width:960px) {
+    .tax-container > p {
+        width: 100%;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .contact-btn {
+        width: 200px;
+        height: 70px;
+        font-size: 25px;
+        margin-top: 2rem;
+    }
+}

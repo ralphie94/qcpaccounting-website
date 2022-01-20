@@ -26,6 +26,10 @@ function Navbar() {
         }
     };
 
+    const extendElement = () => {
+        dropdown ? setDropdown(false) : setDropdown(true);
+    };
+
     return (
         <>
             <nav className='navbar'>
@@ -48,11 +52,11 @@ function Navbar() {
                                 About
                             </Link>
                         </li>
-                        <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                            <div className='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={extendElement}>
+                            <div className='nav-links'>
                                 Services <i className='fas fa-caret-down' />
                             </div>
-                            {dropdown && <Dropdown/>}
+                            {dropdown && <Dropdown onCloseMobileMenu={closeMobileMenu}/>}
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
