@@ -1,0 +1,261 @@
+.bookkeeping > h1 {
+    font-family: "Raleway";
+    font-size: 36px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bookkeeping > p {
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 2rem;
+}
+
+.industries-container {
+    background: rgba(224, 224, 224, 0.5);
+    height: 977px;
+    margin-top: 6rem;
+}
+
+.industries-container > h2 {
+    position: relative;
+    font-family: "Raleway";
+    font-size: 30px;
+    text-align: center;
+    top: 60px;
+}
+
+.industry-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+.law-practices-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/law.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.trucking-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/truck.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.rental-properties-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/apartment.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.roofing-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/roof.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.restaurants-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/restaurant.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.retail-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/retail.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.real-estate-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/real-estate.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.medical-offices-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/images/medical.jpeg");
+    width: 240px;
+    height: 240px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 370px;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180vh;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180vh;
+    margin-top: 6rem;
+}
+
+@media screen and (max-width:960px) {
+    .first-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .second-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    .industry-card-container {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .law-practices-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .trucking-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .rental-properties-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .roofing-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .restaurants-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .retail-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .real-estate-card {
+        width: 180px;
+        height: 180px;
+    }   
+
+    .medical-offices-card {
+        width: 180px;
+        height: 180px;
+    }   
+}

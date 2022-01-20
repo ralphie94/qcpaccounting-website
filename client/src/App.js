@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Tax from './components/pages/Tax';
+import Bookkeeping from './components/pages/Bookkeeping';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about-us" element={<About/>} />
           <Route path="/contact-us" element={<Contact/>} />
           <Route path="/tax" element={<Tax/>} />
+          <Route path="/bookkeeping" element={<Bookkeeping/>} />
         </Routes>
       </Router>
       <Footer />
