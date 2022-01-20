@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-import MapContainer from "../GoogleMap";
 
 class Contact extends Component {
     state = {
@@ -74,7 +73,12 @@ class Contact extends Component {
                         <div className={this.state.sent ? "msg msgAppear" : "msg"}>Message has been sent.</div>
                         <button className="submit-btn" type="submit" value="submit">Submit</button>
                     </form>
-                    <img className="map" src="images/map.png" alt="" />
+                    <div className="map-container">
+                        <img className="map" src="images/map.png" alt="" /> <br/>
+                        <p>13624 HAWTHORNE BLVD SUITE 102</p> <br/>
+                        <p>HAWTHORNE, CA 90250</p> <br/>
+                        <p>(424)297-0006</p> 
+                    </div>
                 </div>
             </div>
         );
