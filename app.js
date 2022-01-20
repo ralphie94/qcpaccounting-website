@@ -7,8 +7,13 @@ require("dotenv").config();
 
 const app = express();
 
+app.use(bodyParser.json());
 app.use(morgan("dev"));
 app.use(cors({ origin: true, credentials: true }));
+
+app.get("/", (req, res) => {
+    res.json({ message: "Hello" });
+});
 
 const port = process.env.PORT || 8000
 
