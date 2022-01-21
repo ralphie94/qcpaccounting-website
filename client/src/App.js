@@ -9,6 +9,7 @@ import Contact from './components/pages/Contact';
 import Tax from './components/pages/Tax';
 import Bookkeeping from './components/pages/Bookkeeping';
 import ScrollToTop from './components/ScrollToTop';
+import Insurance from './components/pages/Insurance';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact-us" element={<Contact/>} />
           <Route path="/tax" element={<Tax/>} />
           <Route path="/bookkeeping" element={<Bookkeeping/>} />
+          <Route path="/insurance" element={<Insurance/>} />
         </Routes>
       </Router>
       <Footer />
