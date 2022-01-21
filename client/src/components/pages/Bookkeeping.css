@@ -195,21 +195,25 @@
     margin-top: 6rem;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:600px) {
+    .bookkeeping > p {
+        font-size: 18px;
+    }
+    
     .first-row {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
+        height: 85vh;
     }
 
     .second-row {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
+        height: 85vh;
         margin-bottom: 6rem;
     }
 
@@ -220,42 +224,50 @@
     }
 
     .law-practices-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }
 
     .trucking-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }
 
     .rental-properties-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }
 
     .roofing-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }
 
     .restaurants-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }
 
     .retail-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }
 
     .real-estate-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }   
 
     .medical-offices-card {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
     }   
 }
