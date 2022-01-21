@@ -8,11 +8,13 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Tax from './components/pages/Tax';
 import Bookkeeping from './components/pages/Bookkeeping';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />
