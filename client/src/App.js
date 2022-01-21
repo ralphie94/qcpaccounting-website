@@ -10,6 +10,7 @@ import Tax from './components/pages/Tax';
 import Bookkeeping from './components/pages/Bookkeeping';
 import ScrollToTop from './components/ScrollToTop';
 import Insurance from './components/pages/Insurance';
+import Paralegal from './components/pages/Paralegal';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/tax" element={<Tax/>} />
           <Route path="/bookkeeping" element={<Bookkeeping/>} />
           <Route path="/insurance" element={<Insurance/>} />
+          <Route path="/paralegal" element={<Paralegal/>} />
         </Routes>
       </Router>
       <Footer />

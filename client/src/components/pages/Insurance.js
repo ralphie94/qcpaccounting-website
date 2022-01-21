@@ -1,5 +1,4 @@
 import React from "react";
-import "./Insurance.css";
 
 function Insurance() {
     return (

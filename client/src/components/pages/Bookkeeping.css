@@ -196,10 +196,14 @@
 }
 
 @media screen and (max-width:600px) {
+    .industries-container {
+        height: 100%;
+    }
+
     .bookkeeping > p {
         font-size: 18px;
     }
-    
+
     .first-row {
         display: flex;
         flex-direction: column;
